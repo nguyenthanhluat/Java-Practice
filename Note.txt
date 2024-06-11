@@ -1,0 +1,23 @@
+1. Java basic
+- String, StringBuilder, StringBuffer
+speed: StringBuilder > StringBuffer > String
+dif: StringBuffer (multi-threads) StringBuilder(single-thread) -> mutable
+    String -> immutable
+- Heap, Stack
+Heap exist with app
+Stack exist with function
+2. OOP
+- Encapsulation: to restrict the direct access to some components of an object
+implement by private and getter, setter
+- Inheritance: to allow create classes that are built upon existing classed, to specify a new implementation while maintaining the same behavior
+implement by extend key
+- Polymorphism: to allow access objects of different types thought the same interface
+implement by overriding and overloading
+- Abstraction: to handle complexity by hiding unnecessary detail from the user
+implement by abstract and interface class
+- SOLID: to create consistent, reliable, maintainable, expandable software
+Single responsibility principle (SRP): A class should have one and only one reason to change, meaning that a class should have only one job
+Open close principle (OCP): Objects or entities should be open for extension, but closed for modification
+Liskov substitution principle (LSP): Objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program
+Interface segregation principle (ISP): Many client-special interface are better than one general-purpose interface
+Dependency inversion principle (DIP): High- level modules should not depend on low-level modules. Both should depend on abstractions. Abstractions should not depend upon detail. Details should depend upon abstractions.
